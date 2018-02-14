@@ -1,0 +1,92 @@
+- tag: nielsen2015general
+  title: General video game evaluation using relative algorithm performance profiles
+  author: Thorbjorn S. Nielsen, Gabriella A. B. Barros, Julian Togelius and Mark J. Nelson
+  booktitle: Proceedings of EvoApplications
+  pages: 369--380
+  year: 2015
+  organization: Springer
+  venue: conf
+  type: fullpaper  
+- tag: barros2018who
+  title: Who Killed Albert Einstein? From Open Data to Murder Mystery Games (accepted)
+  author: Gabriella A. B. Barros, Michael C. Green, Antonios Liapis and Julian Togelius
+  booktitle: Transactions on Games
+  year: 2018
+  venue: journal
+  type: fullpaper
+- tag: nielsen2015towards
+  title: Towards generating arcade game rules with VGDL
+  author: Thorbjorn S. Nielsen, Gabriella A. B. Barros, Julian Togelius and Mark J. Nelson
+  booktitle: Proceedings of the IEEE Conference on Computational Intelligence and Games (CIG)
+  pages: 185--192
+  year: 2015
+  venue: conf
+  type: fullpaper
+- tag: scirea2015smug
+  title: "SMUG: Scientific Music Generator"
+  author: Marco Scirea, Gabriella A. B. Barros, Noor Shaker and Julian Togelius
+  booktitle: Proceedings of the International Conference on Computational Creativity (ICCC)
+  pages: 204--211
+  year: 2015
+  venue: conf
+  type: fullpaper
+- tag: barros2015data
+  title: Data adventures
+  author: Gabriella A. B. Barros, Antonios Liapis and Julian Togelius
+  booktitle: Proceedings of the FDG workshop on Procedural Content Generation in Games
+  year: 2015
+  venue: workshop
+  type: short  
+- tag: barros2015balanced
+  title: Balanced civilization map generation based on open data
+  author: Gabriella A. B. Barros and Julian Togelius
+  booktitle: Proceedings of the IEEE Congress on Evolutionary Computation (CEC)
+  pages: 1482--1489
+  year: 2015
+  organization: IEEE
+  venue: conf
+  type: fullpaper  
+- tag: khalifa2017deeptingle
+  title: DeepTingle
+  author: Ahmed Khalifa, Gabriella A. B. Barros and Julian Togelius
+  journal:  International Conference on Computational Creativity (ICCC)
+  year: 2017
+  venue: conf
+  type: fullpaper 
+- tag: barros2016playing
+  title: "Playing with Data: Procedural Generation of Adventures from Open Data"
+  author: Gabriella A. B. Barros, Antonios  Liapis and Julian Togelius
+  booktitle: Proceedings of the International Joint Conference of DiGRA and FDG
+  year: 2016
+  venue: conf
+  type: fullpaper
+- tag: barros2014exploring
+  title: Exploring a large space of small games
+  author: Gabriella A. B. Barros and Julian Togelius
+  booktitle: Proceedings of the IEEE Conference on Computational Intelligence and Games (CIG)
+  pages: 1--2
+  year: 2014
+  organization: IEEE
+  venue: conf
+  type: short
+- tag: barros2016murder
+  title: Murder mystery generation from open data
+  author: Gabriella A. B. Barros, Antonios  Liapis and Julian Togelius
+  booktitle: Proceedings of the International Conference on Computational Creativity (ICCC)
+  year: 2016
+  venue: conf
+  type: fullpaper
+- tag: green2017press
+  title: "Press Space To Fire: Automatic Video Game Tutorial Generation"
+  author: Michael C. Green, Ahmed Khalifa, Gabriella A. B. Barros and Julian Togelius
+  booktitle: EXAG workshop at AIIDE
+  year: 2017
+  venue: workshop
+  type: short
+- tag: barros2013applying
+  title: "Applying Blue Ocean Strategy to Game Design: A Path to Innovation"
+  author: Gabriella A .B. Barros, Átila V. M. Moreira, Vicente V. Filho, Marco Túlio C. F. Albuquerque, eonardo V. Carvalho, Geber L. Ramalho
+  year: 2013
+  booktitle: Simpósio Brasileiro de Jogos Digitais (SBGames)
+  venue: conf
+  type: fullpaper
