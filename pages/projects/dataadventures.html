@@ -1,0 +1,56 @@
+---
+layout: page
+permalink: /projects/dataadventures/
+order: 3
+---
+
+{% assign games = site.data.games %}
+
+{% for game in games %}
+    {% if game.tag == 'dataadventures'%}
+        <h1 class="page-heading">  {{ game.name }}</h1>
+        <i>By {{ game.team }}. {{ game.year }}.</i>
+        <br><br>
+    
+        {% if game.images != false && game.images > 0 %}
+            <div class="carrousel-div">
+                <div >
+                    {% for i in (1..game.images) %}
+                      {% assign filename = '/assets/games/screens/' | append: game.tag | append: i | append:'.png' %}
+                         <figure class="carrousel">
+                          <img src="{{filename}}" />
+                        </figure>
+                    {% endfor %}
+                </div>
+            </div>
+        <br>
+        {% endif %}
+
+        {{ game.description }}
+        <br>
+
+        Used: {{ game.dev }}. Platforms: {{ game.platform }}.
+        <br> <br>
+
+        {% if game.url != '' %}
+             <a href="{{ game.url }}">
+                Check the {% if game.type contains 'game' %}game{% else %}project{% endif %} here!
+            </a>
+            <br> <br>
+        {% endif %}
+
+        {% if game.git != '' %}
+            <a href="{{ game.git }}">
+                <svg class="svg-icon">
+                    <use xlink:href="/assets/minima-social-icons.svg#github"></use>
+                </svg> 
+                <span class="username">{{ game.git }}</span>
+            </a>
+        <br>
+        {% endif %}
+
+
+{% endif %}
+
+{% endfor %}
+

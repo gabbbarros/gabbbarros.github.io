@@ -1,13 +1,14 @@
 ---
 layout: page
 title: Peer-review publications
+nav: Publications
 permalink: /publications/
-order: 3
+order: 4
 ---
 
 {% assign sorted_pages = (site.data.publications | sort: 'year' | reverse) %}
 
-
+<!--You can download the PDF [here]({{ site.url }}/assets/document.pdf).-->
 
 {% assign jou = 0 %}
 {% assign conf = 0 %}
@@ -35,8 +36,8 @@ order: 3
 
 <ul>    
 {% for paper in sorted_pages %}
-  <li>
-      {{ paper.author}} : <b>"{{ paper.title }}"</b>, {{ paper.booktitle }}{% if paper.pages %}, {{ paper.pages }}{% endif %}. {{ paper.year }}.
+  <li class=li-publication>
+      {{ paper.author}} : <b>"<a href="{{ site.url }}/assets/papers/{{ paper.tag }}.pdf">{{ paper.title }}</a>"</b> {{ paper.booktitle }}{% if paper.pages %}, {{ paper.pages }}{% endif %}. {{ paper.year }}.
     <!--a href="https://github.com/{{ paper.github }}">
       {{ paper.title }}
     </a-->

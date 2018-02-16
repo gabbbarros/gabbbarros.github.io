@@ -1,0 +1,101 @@
+- tag: superherospeeddate
+  name: Superhero Speed Date
+  description: "Superhero Speed Date is a point-and-click adventure game about finding romance within the superhero community. The game was developed with 4 other group members. I was responsible for the coding and part of the visual assets."
+  dev: Adventure Game Studio
+  platform: "Windows"
+  url: "https://mostopha.itch.io/superhero-speed-date"
+  git: "https://github.com/gabbbarros/SuperSpeedDate"
+  year: 2017
+  images: 5
+  type: [game]
+  team: "Gabriella Barros, Mary Kenney, Morgan Macri, Taylor Cyr and Mostafa Haque"
+# 
+- tag: superwhack
+  name: "Super-W-Hack"
+  description: "Super-W-Hack is a strategy turn-base roguelike game with retro aesthestics. In the game, the player is a PhD student, digging their way through the deep dungeons of their imagination. Each playthrough is procedurally generated. To win, the player must explore all five levels and defeat the final boss. Each level consists of several rooms. When players defeat all enemies in a room, they receive a new weapon, which could be better or worse than the previous one. The last room in the level contains a portal to the next level.\nDeveloped in a team of 3, I was responsible for developing the weapon and boss generation."
+  dev: Phaser, Javascript
+  platform: "Windows, Mac"
+  url: "https://amidos2006.itch.io/super-w-hack"
+  git: "https://github.com/amidos2006/Super-W-Hack"
+  year: 2016
+  images: 0
+  type: [game]
+  publications: []
+  team: "Ahmed Khalifa, Gabriella A. B. Barros and Tiago Machado"
+# 
+- tag: dataadventures
+  name: Data Adventures
+  description: "Data Adventures is a point-and-click adventure game algorithmically generated from Wikipedia, DBpedia and OpenStreetMap. It is the first iteration in the Data Adventures' series, followed by WikiMysteries and DATA Agent. It receives the name of two individuals as input, and generate a plot based on articles about them and in relation to them. These articles are transformed into game objects (locations, NPCs and items) via constructive algorithms that also rely on geographical information from OpenStreetMaps and visual content from Wikimedia Commons."
+  dev: LibGDX, Java
+  platform: "Windows"
+  url: ""
+  git: ""
+  images: 0
+  year: 2015
+  type: [game,research]
+  publications: [Barros2015Data,Barros2016Playing]
+  team: "Gabriella A. B. Barros, Antonios Liapis and Julian Togelius"
+# 
+- tag: deeptingle
+  name: DeepTingle
+  description: "DeepTingle is a text prediction and classification system trained on the collected works of the renowned fantastic gay erotica author Chuck Tingle.  Whereas the writing assistance tools you use everyday (in the form of predictive text, translation, grammar checking and so on) are trained on generic,  purportedly “neutral” datasets, DeepTingle is trained on a very specific, internally consistent but externally arguably eccentric dataset. This allows us to foreground and confront the norms embedded in data-driven creativity and productivity assistance tools.  As such tools effectively function as extensions of our cognition into technology, it is important to identify the norms they embed within themselves and,  by extension,  us.   DeepTingle is realized as a web application based on LSTM networks and the GloVe word embedding."
+  dev: JavaScript with Keras-JS, GloVe word embedding
+  platform: [Web]
+  url: "www.deeptingle.net"
+  git: "https://github.com/amidos2006/DeepTingle"
+  images: 0
+  year: 2016
+  type: [research]
+  publications: [Khalifa2017DeepTingle]
+  team: "Ahmed Khalifa, Gabriella A. B. Barros and Julian Togelius"
+# 
+- tag: wikimysteries
+  name: WikiMysteries
+  description: "WikiMysteries is a point-and-click adventure game, where the adventures are procedurally generated from open data. Focusing on the murder mystery type of adventure games, the generator is able to transform open data from Wikipedia articles, OpenStreetMap and images from Wikimedia Commons into WikiMysteries. Every WikiMystery game revolves around the murder of a person with a Wikipedia article and populates the game with suspects who must be arrested by the player if guilty of the murder or absolved if innocent. Starting from only one person as the victim, an extensive generative pipeline finds suspects, their alibis, and paths connecting them from open data, transforms open data into cities, buildings, non-player characters, locks and keys and dialog options."
+  dev: LibGDX, Java
+  platform: "Windows"
+  url: ""
+  git: ""
+  images: 0
+  year: 2017
+  type: [game,research]
+  publication: [Barros2016Murder,Barros2018Who]
+  team: "Gabriella A. B. Barros, Michael C. Green, Antonios Liapis and Julian Togelius"
+# 
+- tag: dataagent
+  name: DATA Agent (WIP)
+  description: "DATA Agent is the last evolution of the Data Adventures' series of games. More information soon!"
+  dev: Java, LibGDX, Unity, C#
+  platform: "Windows, Mac, Browser"
+  url: ""
+  git: ""
+  images: 0
+  year: 2018
+  type: [game,research]
+  team: "Gabriella A. B. Barros, Michael C. Green,  Antonios Liapis and Julian Togelius"
+#
+- tag: smug
+  name: "SMUG: Scientific Music Generator"
+  description: "SMUG is a system to generate lyrics and melodies from real-world data, in particular from academic papers. Through this we wanted to create a playful experience and establish a novel way of generating content (textual and musical) that could be applied to other domains, in particular to games. For melody generation, we have used a novel approach to Markov chains evolution. Our system takes in input a PDF of an academic paper and outputs lyrics and relative musical melody. Check out the online version of our system!"
+  dev: Java
+  platform: "Browser"
+  url: "http://msci.itu.dk/smug/"
+  git: ""
+  images: 0
+  year: 2015
+  type: [research]
+  team: "Gabriella A. B. Barros and  Marco Scirea"
+  publications: [Scirea2015Smug]
+# 
+#- tag: 
+#  name: 
+#  description:
+#  dev: 
+#  platform: []
+#  url: ""
+#  git: ""
+#  images: 0
+#  year:
+#  type: [game,research]
+#  team: ""
+# 
