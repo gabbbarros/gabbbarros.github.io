@@ -30,7 +30,7 @@
   platform: "Windows"
   url: ""
   git: ""
-  images: 0
+  images: 5
   year: 2015
   type: [game,research]
   publications: [Barros2015Data,Barros2016Playing]
@@ -56,7 +56,7 @@
   platform: "Windows"
   url: ""
   git: ""
-  images: 0
+  images: 6
   year: 2017
   type: [game,research]
   publication: [Barros2016Murder,Barros2018Who]
@@ -69,7 +69,7 @@
   platform: "Windows, Mac, Browser"
   url: ""
   git: ""
-  images: 0
+  images: 2
   year: 2018
   type: [game,research]
   team: "Gabriella A. B. Barros, Michael C. Green,  Antonios Liapis and Julian Togelius"
