@@ -9,10 +9,38 @@ $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
+/*#dfdfde 	(223,223,222)
+	#a2798f 	(162,121,143)
+	#d7c6cf 	(215,198,207)
+	#8caba8 	(140,171,168)
+	#ebdada
+*/
+$back-c: #ffffff !default;
+$accent1-c: #ffffff !default;
+$accent2-c: #ffffff !default;
+$accent3-c: #ffffff !default;
+$accent4-c: #ffffff !default;
 
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+$white-color: #f9fafc !default;
+$yellow-color: #a2798f !default;
+$red-color: #8EB9A8 !default;
+$red-color-light: #FDCFB7 !default;
+
+$blue-color-dark: #775D6A !default;
+$blue-color-light: #FDCFB7 !default;
+$blue-color: #F4828C !default;
+
+$text-color:  $blue-color-dark !default;//#111 !default;
+$background-color: $white-color !default;//#fdfdfd !default;
+$brand-color:      #2980B9 !default;//#2a7ae2 !default;
+
+$header-color: $blue-color-dark !default;
+$header-text-color: $red-color-light !default;
+$header-top: $header-color !default;
+$header-bottom: $header-color !default;
+
+$link: $red-color !default;
+$link-visited: darken($red-color, 25%) !default;//$red-color-light !default;$red-color-light !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
