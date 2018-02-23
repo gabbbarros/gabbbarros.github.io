@@ -24,10 +24,10 @@ $accent4-c: #ffffff !default;
 $white-color: #f9fafc !default;
 $yellow-color: #a2798f !default;
 $red-color: #8EB9A8 !default;
-$red-color-light: #FDCFB7 !default;
+$red-color-light: lighten(#8EB9A8, 20%) !default;
 
 $blue-color-dark: #775D6A !default;
-$blue-color-light: #FDCFB7 !default;
+$blue-color-light: #8EB9A8 !default;
 $blue-color: #F4828C !default;
 
 $text-color:  $blue-color-dark !default;//#111 !default;
