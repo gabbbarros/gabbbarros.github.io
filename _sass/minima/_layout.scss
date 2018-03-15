@@ -135,7 +135,7 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
+  color: $s-pink;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
@@ -422,7 +422,7 @@ carrousel
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
-
+color: $text-title-color;
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
   }
